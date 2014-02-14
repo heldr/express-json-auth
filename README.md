@@ -7,9 +7,9 @@ Run express basic http auth from a user json file.
 npm install express-json-auth --save
 ```
 
-## Usage example:
+### Usage example:
 
-User.json
+user.json
 ```js
 {
 	"ted": "123321",
@@ -17,7 +17,7 @@ User.json
 }
 ```
 
-Server.js
+server.js
 ```js
 var app  = require('express')(),
 	auth = require('express-json-auth')(); // default path: process cwd dir + user.json
@@ -31,14 +31,14 @@ app.get('/admin', auth, function (req, res) {
 });
 ```
 
-### Specific json
+#### Specific json
 ```js
 ...
 auth = require('express-json-auth')('./private/admin.json');
 ...
 ```
 
-### Object
+#### Object
 ```js
 ...
 users = {
