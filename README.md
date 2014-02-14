@@ -3,6 +3,10 @@ express-json-auth
 
 Run express basic http auth from a user json file.
 
+```CLI
+npm install express-json-auth --save
+```
+
 ## Usage example:
 
 User.json
