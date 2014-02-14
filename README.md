@@ -1,7 +1,7 @@
 express-json-auth
 =================
 
-Run express basic http auth from a user json file.
+Run [Express](http://expressjs.com/) basic http auth from a user json file. Inspired by apache .htpasswd files :)
 
 ```CLI
 npm install express-json-auth --save
