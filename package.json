@@ -12,13 +12,11 @@
   },
   "keywords": [
     "authentication",
+    "json",
+    "auth",
     "express",
-    "'http",
-    "auth'",
-    "'basic",
-    "auth'",
-    "'server",
-    "auth'"
+    "http auth",
+    "server auth"
   ],
   "author": "Helder Santana",
   "license": "MIT",
